@@ -16,6 +16,8 @@ Dota2导入这样的自定义英雄视图的方式非常简单，将自定义视
 ![image](https://github.com/zhtisi/Dota2-Ban-Pick-Grid/blob/master/save.png)
 
 第二步，找到自己的cfg目录，比如我的steam安装在D:\Game\Steam，我的数字编号是136xxxxxx，所以我进入D:\Game\Steam\userdata\136xxxxxx\570\remote\cfg，把下载好的hero_grid_config.json粘贴到这里。
+![image](https://github.com/zhtisi/Dota2-Ban-Pick-Grid/blob/master/directory.png)
+
 
 第三步，打开dota2，享受自定义英雄视图~
 
