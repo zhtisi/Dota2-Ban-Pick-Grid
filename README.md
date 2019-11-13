@@ -15,11 +15,12 @@ Dota2导入这样的自定义英雄视图的方式非常简单，将自定义视
 第一步，在github上下载，在想要下载的json文件上，右键 -> 链接另存为，然后保存到自己电脑上。
 ![image](https://github.com/zhtisi/Dota2-Ban-Pick-Grid/blob/master/save.png)
 
-第二步，找到自己的cfg目录，比如我的steam安装在D:\Game\Steam，我的数字编号是136xxxxxx，所以我进入D:\Game\Steam\userdata\136xxxxxx\570\remote\cfg，把下载好的hero_grid_config.json粘贴到这里。
+第二步，找到自己的cfg目录，比如我的steam安装在D:\Game\Steam，我的数字编号是136xxxxxx，所以我进入D:\Game\Steam\userdata\136xxxxxx\570\remote\cfg，把下载好的hero_grid_config.json粘贴到这里。粘贴前请先退出Dota2！
 ![image](https://github.com/zhtisi/Dota2-Ban-Pick-Grid/blob/master/directory.png)
 
 
 第三步，打开dota2，享受自定义英雄视图~
+![image](https://github.com/zhtisi/Dota2-Ban-Pick-Grid/blob/master/choose_view.png)
 
 ## 注意
     如果你过去已经有自定义视图，并且希望保留过去的自定义视图。请先备份一份本地的hero_grid_config.json文件。接下来打开本地的hero_grid_config.json文件（使用任意文本编辑器即可），然后打开想要的这个项目中的json文件，接下来复制这个项目中的json文件的"configs":[] 这部分里中括号内部的内容（以大括号开始，大括号结束的部分）。 在本地的hero_grid_config.json文件内，"configs":[] 部分最后的那个中括号前，输入一个英文逗号，然后再粘贴，保存，即可同时拥有多个视图。
